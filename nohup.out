@@ -1,0 +1,26 @@
+Command "daemon" is deprecated, and will be removed in Docker 1.16. Please run `dockerd` directly.
+time="2017-02-21T09:49:13.633978503+01:00" level=warning msg="[!] DON'T BIND ON ANY IP ADDRESS WITHOUT setting -tlsverify IF YOU DON'T KNOW WHAT YOU'RE DOING [!]" 
+time="2017-02-21T09:49:13.634976258+01:00" level=info msg="libcontainerd: new containerd process, pid: 19005" 
+time="2017-02-21T09:49:13.649420638+01:00" level=warning msg="containerd: low RLIMIT_NOFILE changing to max" current=1024 max=4096 
+time="2017-02-21T09:49:14.644403632+01:00" level=info msg="[graphdriver] using prior storage driver: aufs" 
+time="2017-02-21T09:49:14.683848260+01:00" level=info msg="Graph migration to content-addressability took 0.00 seconds" 
+time="2017-02-21T09:49:14.684107952+01:00" level=warning msg="Your kernel does not support swap memory limit" 
+time="2017-02-21T09:49:14.684154828+01:00" level=warning msg="Your kernel does not support cgroup rt period" 
+time="2017-02-21T09:49:14.684172895+01:00" level=warning msg="Your kernel does not support cgroup rt runtime" 
+time="2017-02-21T09:49:14.684278466+01:00" level=warning msg="mountpoint for pids not found" 
+time="2017-02-21T09:49:14.684791897+01:00" level=info msg="Loading containers: start." 
+time="2017-02-21T09:49:14.691514877+01:00" level=info msg="Firewalld running: false" 
+Error starting daemon: Error initializing network controller: list bridge addresses failed: no available network
+Command "daemon" is deprecated, and will be removed in Docker 1.16. Please run `dockerd` directly.
+time="2017-02-21T09:49:53.154852756+01:00" level=warning msg="[!] DON'T BIND ON ANY IP ADDRESS WITHOUT setting -tlsverify IF YOU DON'T KNOW WHAT YOU'RE DOING [!]" 
+time="2017-02-21T09:49:53.155817962+01:00" level=info msg="libcontainerd: new containerd process, pid: 19071" 
+time="2017-02-21T09:49:53.16878358+01:00" level=warning msg="containerd: low RLIMIT_NOFILE changing to max" current=1024 max=4096 
+time="2017-02-21T09:49:54.163286600+01:00" level=info msg="[graphdriver] using prior storage driver: aufs" 
+time="2017-02-21T09:49:54.231531467+01:00" level=info msg="Graph migration to content-addressability took 0.00 seconds" 
+time="2017-02-21T09:49:54.231883030+01:00" level=warning msg="Your kernel does not support swap memory limit" 
+time="2017-02-21T09:49:54.231952516+01:00" level=warning msg="Your kernel does not support cgroup rt period" 
+time="2017-02-21T09:49:54.231971800+01:00" level=warning msg="Your kernel does not support cgroup rt runtime" 
+time="2017-02-21T09:49:54.232099512+01:00" level=warning msg="mountpoint for pids not found" 
+time="2017-02-21T09:49:54.233153376+01:00" level=info msg="Loading containers: start." 
+time="2017-02-21T09:49:54.241548921+01:00" level=info msg="Firewalld running: false" 
+Error starting daemon: Error initializing network controller: list bridge addresses failed: no available network

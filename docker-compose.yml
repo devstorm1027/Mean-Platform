@@ -1,0 +1,12 @@
+wain:
+    build: .
+    ports:
+      - "3000:3000"
+      - "5858:5858"
+      - "27017:27017"
+    volumes:
+    - ./:/wain
+    command: service mongod start && nodemon--delay 1 --watch models --watch routes --watch util -L npm start
+    environment:
+      - NODE_ENV=dev
+      - PATH=/wain/node_modules/.bin:$PATH
